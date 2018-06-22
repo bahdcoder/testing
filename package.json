@@ -1,0 +1,37 @@
+{
+  "name": "ride-my-way",
+  "version": "1.0.0",
+  "description": "Ride-my App is a carpooling application that provides drivers with the ability to create ride offers\r and passengers to join available ride offers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha server/test/**/**.spec.js --compilers js:babel-core/register --exit",
+    "start": "babel-watch server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuthCollins/Ride-My-Way.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuthCollins/Ride-My-Way/issues"
+  },
+  "homepage": "https://github.com/RuthCollins/Ride-My-Way#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-watch": "^2.0.7",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
