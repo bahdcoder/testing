@@ -1,6 +1,7 @@
 # Ride-My-Way
 
 [![Build Status](https://travis-ci.com/bahdcoder/testing.svg?branch=master)](https://travis-ci.com/bahdcoder/testing)
+[![Coverage Status](https://coveralls.io/repos/github/bahdcoder/testing/badge.svg?branch=master)](https://coveralls.io/github/bahdcoder/testing?branch=master)
 
 ## Application Overview
 Ride-my App is a carpooling application that provides drivers with the ability to create ride offers
